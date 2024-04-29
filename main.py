@@ -21,7 +21,7 @@ def take_screenshot():
         date = now.strftime("%m-%d")
 
         # Create / Check if the destination folder exists
-        desktop_path = os.path.expanduser('~/Desktop')
+        desktop_path = os.path.expanduser('~/OneDrive/Desktop')
         folder_path = os.path.join(desktop_path, "Antsentry Report- Screenshot", date)
         os.makedirs(folder_path, exist_ok=True)
 
