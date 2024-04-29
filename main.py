@@ -3,7 +3,6 @@ import random
 import time
 from datetime import datetime
 from PIL import ImageGrab
-import schedule
 
 # Screenshot random intervals
 min_interval = 19
