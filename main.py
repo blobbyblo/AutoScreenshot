@@ -48,5 +48,8 @@ def take_screenshot():
 
 
 if __name__ == "__main__":
+    print("Taking first screenshot in 5 seconds. Please minimize this window.")
+    time.sleep(5)
+    
     while True:
         take_screenshot()
